@@ -1,0 +1,57 @@
+.card {
+  width: 100%;
+  border: 3px solid;
+  border-radius: 25px;
+}
+.card-img {
+  background-size: cover;
+  border-radius: 20px 20px 0 0;
+  height: 15rem;
+  display: flex;
+  align-items: end;
+}
+.card-img h3 {
+  color: rgb(210, 206, 206);
+  display: flex;
+  padding: 5px;
+}
+.img {
+  width: 150%;
+}
+.card-details {
+  padding: 10px;
+}
+.year {
+  display: flex;
+  justify-content: space-between;
+}
+.runtime {
+  display: flex;
+  justify-content: space-between;
+}
+.genre {
+  display: flex;
+  justify-content: space-between;
+}
+.language {
+  display: flex;
+  justify-content: space-between;
+}
+.selectSeats {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1rem;
+  background-color: rgb(224, 151, 73);
+  padding: 1rem;
+  border-radius: 20px;
+}
+.selectSeats:hover{
+    background-color:rgb(223, 128, 27) ;
+}
+.p1 {
+  color: gray;
+  font-size: 0.9rem;
+}
+.p2 {
+  font-size: 0.9rem;
+}
